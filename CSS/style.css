@@ -1,0 +1,478 @@
+body{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+a{
+  text-decoration: none;
+}
+
+/* ul{
+  list-style: none;
+} */
+
+/* Menu part CSS Start */
+.navbar-light .navbar-nav .active>.nav-link{
+    color: #00e0d0;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color:#fff;
+    font-size: 17px;
+    font-family: "Roboto", sans-serif;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #00e0d0;
+}
+
+
+.custom-navbar{
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+}
+
+ul li a{
+  font-size: 20px;
+  z-index: 100;
+  
+}
+/* Menu part CSS end */
+
+
+/* home page Banner part css start */
+
+.slider img {
+  vertical-align: middle;
+  border-style: none;
+  width: 100%;
+}
+
+
+.slider{
+  position: relative;
+}
+
+.slider::after{
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgb(45, 45, 47, 0.4);
+}
+.slider-text{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50% , -50%);
+  z-index: 100;
+}
+
+.slider-text h2{
+  color: #ffffff;
+  font-size: 30px;
+  font-family: 'Playfair Display', serif;
+  font-weight: 800;
+}
+
+.slider-text p{
+  color: #ffffff;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+
+.slider-text button{
+  color: #ffffff;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+
+
+.banner-slider{
+  z-index: 100;
+  position: relative;
+}
+
+.slick-dots{
+  text-align: center;
+  margin: 0 auto;
+  position: absolute;
+  bottom: 70px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.slick-dots li{
+  display: inline-block;
+  margin-right: 10px;
+  height: 20px;
+  width: 20px;
+  line-height: 20px;
+  border-radius: 50%;
+  border: 2px solid #ffffff;
+}
+
+.slick-dots li button{
+  color: transparent;
+  height: 17px;
+  width: 16px;
+  line-height: 17px;
+  border-radius: 50%;
+  border: none;
+  background: #00e0d0;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.slick-dots li.slick-active button{
+  opacity: 1;
+
+}
+
+.slick-active button:focus:not(:focus-visible) {
+  outline: 0;
+}
+
+/* home page Banner part css end */
+
+
+
+
+/* Kohli information part css start */
+
+#kohli-part{
+  padding: 70px;
+}
+
+
+.kohli-text h2{
+  /* font-size: 32px;
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  color: #413d4b;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+  margin-bottom: 0px !important; */
+
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  color: #594f72;
+  font-weight: 700;
+}
+.kohli-text p{
+  /* font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  color: #716e78;
+  line-height: 24px;
+  padding-bottom: 20px;
+  margin-bottom: 0px !important; */
+
+  color: #574646;
+  font-size: 16px;
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  line-height: 26px;
+  
+
+}
+.kohli-text a{
+  /* border: 1px solid #00e0d0;
+  padding: 15px 30px;
+  color: #00e0d0;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: inline-block; */
+
+  border: 2px solid #827ced;
+  padding: 12px 12px;
+  color: #4b4a80;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-top: 18px;
+
+}
+
+/* Kohli information  part css end */
+
+
+
+/* video part css start */
+
+#video-part {
+  background: url(../img/Narendra_Modi_Stadium_view_from_the_gallery-1024x571\ \(1\).jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  padding: 100px 0;
+}
+
+/* #video-part::after {
+  position: absolute;
+  content: '';
+  background-color: rgb(24, 17, 58, 0.8);
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+
+} */
+
+.video-icon {
+  z-index: 100;
+  position: relative;
+  
+}
+
+.video-icon h3 {
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  color: #594f72;
+  font-weight: 900;
+  padding-top: 25px;
+}
+
+.video-i {
+  color: #ffffff;
+  font-size: 80px;
+  cursor: pointer;
+  color: #594f72;
+}
+
+/* video part css end */
+
+
+
+
+
+/* Footer part css start */
+
+
+
+#footer{
+  background-color:#21464b;
+  /* background-color:#022314; */
+}
+
+
+
+.footer-about-list li a {
+  color: white !important;
+}
+.social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  border: 2px solid #b9997c;
+  border-radius: 9px;
+  margin-right: 8px;
+}
+.social-link:hover {
+  cursor: pointer;
+  background-color: white;
+}
+.fb {
+  width: 35px;
+  color: #b9997c;
+  font-size: 20px;
+}
+.twitter {
+  width: 35px;
+  color: #b9997c;
+  font-size: 20px;
+}
+/* .instagram {
+  width: 35px;
+  color: #b9997c;
+  font-size: 25px;
+} */
+
+.linkedin{
+  width: 35px;
+  color: #b9997c;
+  font-size: 25px;
+}
+
+.linkedin:hover{
+  color: #0776e8;
+  border: 2px solid white;
+  text-decoration: none;
+}
+
+.fb:hover {
+  color: #0776e8;
+  border: 2px solid white;
+  text-decoration: none;
+}
+.twitter:hover {
+  color: #1d9bf0;
+  border: 2px solid white;
+  text-decoration: none;
+}
+/* .instagram:hover {
+  border: 2px solid white;
+  color: #e6008b;
+} */
+
+
+/* Footer part css end */
+
+
+/* Stats part css start */
+
+#stats{
+  margin-top: 50px;
+  /* margin-bottom: 50px; */
+}
+
+.stats-details img{
+  margin-bottom: 30px;
+}
+.stats-details h3{
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  color: #594f72;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.stats-details p{
+  color: #574646;
+  font-size: 16px;
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  line-height: 26px;
+  padding: 0px 20px;
+}
+
+.stats-details a{
+  border: 2px solid #827ced;
+  padding: 12px 12px;
+  color: #4b4a80;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 50px;
+}
+/* Stats part css end */
+
+
+
+/* about part css start */
+.customAboutList li::marker {
+  color: #d135c4;
+  font-size: 20px;
+}
+.customAboutList li{
+  font-family: 'Playfair Display', serif;
+  color: #574646;
+}
+
+.about-h3{
+  font-family: "Roboto", sans-serif;
+  
+}
+
+/* about part css end */
+
+/* schedule banner part css start */
+
+#banner-part{
+  background: url(../img/Narendra_Modi_Stadium_view_from_the_gallery-1024x571\ \(1\).jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.banner-text{
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.banner-text h2{
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #594f72;
+  font-weight: 700;
+}
+.banner-text p{
+  font-size: 16px;
+  color: #594f72;
+  font-weight: 400;
+  padding: 0 150px;
+  padding-bottom: 15px;
+}
+.banner-text a{
+  text-decoration: none;
+  color: #594f72;
+  border: 1px solid #99b0c6;
+  padding: 10px 20px;
+  background: #a5b8ca;
+  text-transform: uppercase;
+}
+
+/* schedule banner part css start */
+
+
+/*  login logout css start */
+
+.login-header{
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+/*  login logout css end */
+
+
+
+
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 400 to 900
+
+.playfair-display-<uniquifier> {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+
+
+/* 
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.roboto-regular-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+ */
