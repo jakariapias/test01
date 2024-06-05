@@ -8,8 +8,8 @@ $(document).ready(function(){
         slidesToScroll: 1,
         arrows: false,
         dots: true,
-        autoplay: false,
-        autoplaySpeed: 1000,
+        autoplay: true,
+        autoplaySpeed: 500,
       });
 
 
@@ -20,8 +20,8 @@ $(document).ready(function(){
         slidesToScroll: 1,
         arrows: false,
         dots: true,
-        autoplay: false,
-        autoplaySpeed: 1000,
+        autoplay: true,
+        autoplaySpeed: 500,
       });
 
 
